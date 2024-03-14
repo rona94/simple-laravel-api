@@ -8,6 +8,17 @@ Run to install composer.
 composer install
 ```
 
+## Setup
+Create `.env` and copy `.env.example` on the same directory
+```
+cp .env.example .env
+```
+
+Run this command
+```
+php artisan jwt:secret
+```
+
 ## Database
 Run to migrate data in database. Needed to create `laravel` database before running this code. 
 ```
