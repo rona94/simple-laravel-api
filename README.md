@@ -9,7 +9,7 @@ composer install
 ```
 
 ## Database
-Run to migrate data in database. Needed to create `laravel` table in database before running this code. 
+Run to migrate data in database. Needed to create `laravel` database before running this code. 
 ```
 php artisan migrate
 ```
